@@ -1,0 +1,473 @@
+:root{
+	--first-color: #333130;
+	--second-color: #8c1f1f;
+	--border-color: #611313;
+}
+a{
+  	text-decoration: none;
+  	color:white;
+  	
+}
+
+ul{
+	list-style-type: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.nav{
+	background-color: var(--first-color);
+	height: 60px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin: auto;
+	column-gap: 3rem;
+}
+.header-item{
+	  font-family: "Tektur", sans-serif;
+}
+.nav-menu{
+	display: flex;
+	column-gap: 2.5rem;
+    padding-left: 1000px;
+}
+.img1{
+	padding-left: 20px;
+}
+.home{
+	width: 100%;
+	height: 400px;
+	background-color: var(--second-color);
+	display: flex;
+}
+.home-logotip{
+	width: 300px;
+	height: auto;
+	margin: 50px;
+	border-radius: 50%;
+	border: 3px solid var(--first-color);
+}
+.home-title{
+	margin-top: 50px;
+	color: white;
+	font-size: 50px;
+	 font-family: "Tektur", sans-serif;
+}
+.listen-button{
+	height: 40px;
+	width: 200px;
+	margin-top: 40px;
+	font-family: "Inter", sans-serif;
+	border: 0;
+	border-radius: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 20px;
+	font-size: 17px;
+	background-color: white;
+	color: black;
+}
+.listen-more{
+	margin-right: 10px;
+	width: 20px;
+	height: auto;
+
+}
+.listen-button-2{
+	height: 40px;
+	width: 40px;
+	display: flex;
+	border: 0;
+	border-radius: 5%;
+	margin-top: 40px;
+	margin-left: 10px;
+	background-color: white;
+	
+}
+.listen{
+	display: flex;
+
+}
+.popular{
+	width: 100%;
+	display: flex;
+}
+.popular-title{
+	 font-family: "Tektur", sans-serif;
+	 margin-left: 30px;
+	 font-weight: 500;
+	 margin-top: 15px;
+
+}
+
+.Music{
+	display: flex;
+	margin: 15px
+
+}
+
+.Music_picture{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	margin-right: 30px;
+
+}
+
+.Music_title{
+	font-family: "Tektur", sans-serif;
+	display: flex;
+	font-size: 20px;
+
+}
+.Music_listen{
+	background-color: #8c1f1f;
+	border: 0;
+	border-radius: 5%;
+	width: 100px;
+	height: 25px;
+	margin-top: 10px;
+	font-size: 15px;
+
+	
+}
+
+.AAA1{
+	margin: 30px;
+	border: 2px solid #333130;
+	width: 700px;
+}
+
+.similar-title{
+	 font-family: "Tektur", sans-serif;
+	 margin-left: 30px;
+	 font-weight: 500;
+	 margin-top: 15px;
+	 
+
+}
+
+.similar{
+	display: flex;
+}
+
+.similar-executor{
+	font-family: "Advent Pro", sans-serif;
+}
+
+
+.sss{
+	display: flex;
+}
+
+.biography{
+			margin: 0;
+			margin-top: 50px;
+			display: flex;
+
+}
+        .biography-ttlie{
+			font-family: "Tektur", sans-serif;
+			
+			display: block;
+
+		}
+		.biography_{
+			width: 100px;
+			height: 30px;
+			background-color: var(--first-color);
+			display: flex;
+			margin-top: 5px;
+		}
+
+		.biography-basic{
+			display: flex;
+			margin-left: 40px;
+			flex-direction: column;
+
+		}
+
+		p{
+			
+			font-size: 22px;
+			font-family: "Advent Pro", sans-serif;
+			font-weight: bold;
+			color: #696969;
+
+		}
+
+		.biography-img{
+			width: 400px;
+			height: auto;
+			float: right;
+			display: inline;
+			margin-left: 70px;
+			margin-bottom: 30px;
+		}
+
+		.SSS{
+			width: 700px;
+			display: inline;
+		}
+		.ZZZ{
+			display: flex;
+		}
+		.history{
+			margin-left: 95px;
+			margin-top: 30px;
+		}
+		.history-title{
+			 font-family: "Tektur", sans-serif;
+			
+
+		}
+		.FFF{
+			width: 1000px;
+
+		}
+
+		.WWW{
+			height: 210px;
+			width: 40px;
+			background-color: var(--second-color);
+		}
+
+		.DDD{
+			width: 60px;
+			height: 30px;
+			background-color: var(--first-color);
+			display: flex;
+			margin-top: 20px;
+		}
+
+		.img2{
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			display: flex;
+		}
+		
+		.similar-executor{
+			width: 400px;
+			margin: 60px;
+			display: flex;
+			margin-bottom: 40px;
+		}
+
+		.similar-executor-title{
+			display: flex;
+			font-size: 25px;
+			   font-family: "Inter", sans-serif;
+			 font-weight: 400;
+			 margin-left: 20px;
+		}
+
+		.BBB{
+			 font-family: "Advent Pro", sans-serif;
+			 font-size: 15px;
+			 margin-top: 7px;
+			 margin-left: 21px;
+		}
+
+		.tours{
+			width: 100%;
+			display: flex;
+			margin-top: 20px;
+
+		}
+
+		.tours-title{
+			 font-family: "Tektur", sans-serif;
+			 display: flex;
+			 margin-left: 35px;
+
+		}
+
+		.tours_{
+			width: 60px;
+			height: 30px;
+			background-color: var(--first-color);
+			display: flex;
+			margin-top: 5px;
+			display: flex;
+		}
+		.tours1{
+			margin-left: 37px;
+			border: 2px solid var(--border-color);
+			border-radius: 2%;
+			width: 1390px;
+			height: 1150px;
+			margin-top: 20px;
+		}
+
+		.tours-basic{
+			margin: 7px;
+			border: 2px solid var(--border-color);
+			height: 155px;
+			border-radius: 4%;
+			box-shadow: 2px 5px 15px  lightgrey;
+			display: flex;
+		}
+
+		.similar-executor1{
+			width: 400px;
+			margin-top: 40px;
+			margin-left: 60px;
+			display: flex;
+		}
+
+		.YYY{
+			height: 100%;
+			width: 155px;
+			display: flex;
+		}
+
+		.tours-data{
+			text-align: center;
+			margin-top: 45px;
+			height: 100%;
+			width: 155px;
+			
+		}
+
+		.au{
+			font-size: 20px;
+			color: black;
+		}
+
+		.tours-img{
+			height: 100%;
+			width: auto;
+			border: 5px solid var(--border-color);
+		}
+
+		.QQQ{
+			display: flex;
+		}
+
+		.LLL{
+			margin-left: 20px;
+		}
+
+		.tours-basic-title{
+			font-family: "Advent Pro", sans-serif;
+		}
+
+		.III{
+			display: flex;
+			margin-top: 50px;
+			margin-left: 20px;
+		}
+
+		.tours-basic-img{
+			height: 25px;
+			width: auto;
+		}
+
+		.aa{
+			font-size: 25px;
+			
+
+
+		}
+
+		.i{
+			margin-left: 35px;
+			font-size: 30px;
+			color: black;
+		}
+
+		.JJJ{
+			background-color: var(--second-color);
+			margin-left: 450px;
+			margin-top: 35px;
+			width: 300px;
+			height: 80px;
+			border-radius: 4%;
+		}
+
+		.o{
+			
+			font-size: 20px;
+			color: white;
+			margin-left: 90px;
+			margin-top: 5px;
+		}
+
+		.JJJ-img{
+			width: 35px;
+			height: auto;
+		}
+
+		.BB{
+			display: flex;
+			margin-top: 25px;
+			margin-left: 7px;
+		}
+
+		.JJJ1{
+			margin-left: 40px;
+			background-color: var(--second-color);
+			margin-left: 527px;
+			margin-top: 35px;
+			width: 300px;
+			height: 80px;
+			border-radius: 4%;
+		}
+
+		.JJJ2{
+			margin-left: 40px;
+			background-color: var(--second-color);
+			margin-left: 514px;
+			margin-top: 35px;
+			width: 300px;
+			height: 80px;
+			border-radius: 4%;
+		}
+
+		
+		.JJJ3{
+			margin-left: 40px;
+			background-color: var(--second-color);
+			margin-left: 505px;
+			margin-top: 35px;
+			width: 300px;
+			height: 80px;
+			border-radius: 4%;
+		}
+
+		.JJJ4{
+			margin-left: 40px;
+			background-color: var(--second-color);
+			margin-left: 515px;
+			margin-top: 35px;
+			width: 300px;
+			height: 80px;
+			border-radius: 4%;
+		}
+
+		.JJJ5{
+			margin-left: 40px;
+			background-color: var(--second-color);
+			margin-left: 500px;
+			margin-top: 35px;
+			width: 300px;
+			height: 80px;
+			border-radius: 4%;
+		}
+
+		.JJJ6{
+			margin-left: 40px;
+			background-color: var(--second-color);
+			margin-left: 483px;
+			margin-top: 35px;
+			width: 300px;
+			height: 80px;
+			border-radius: 4%;
+		}
